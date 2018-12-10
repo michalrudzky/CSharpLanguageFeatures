@@ -13,10 +13,14 @@ namespace ExtensionMethods
             int[] numbers = new[] {4, 16, 21, 7, 13};
             int biggestNumber = numbers.GetMaxValue();
             int smallestNumber = numbers.GetMinValue();
+            var numbersMeandering = numbers.SortMeandering();
 
             Console.WriteLine($"Numbers: {numbers.Display()}");
             Console.WriteLine($"Biggest number: {biggestNumber}");
             Console.WriteLine($"Smallest number: {smallestNumber}");
+            numbers.SortDescending();
+            Console.WriteLine($"Numbers (descending order): {numbers.Display()}");
+            Console.WriteLine($"Numbers (meandering order): {numbersMeandering.Display()}");
         }
     }
 }

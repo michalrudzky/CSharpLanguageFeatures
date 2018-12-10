@@ -49,5 +49,34 @@ namespace ExtensionMethods
 
             return text;
         }
+
+        public static void SortDescending(this int[] array)
+        {
+            Array.Sort(array);
+            Array.Reverse(array);
+        }
+
+        public static int[] SortMeandering(this int[] array)
+        {
+            int[] inputArray = (int[]) array.Clone();
+            int[] outputArray = new int[array.Length];
+
+            Array.Sort(inputArray);
+            Array.Reverse(inputArray);
+
+            for (int i = 0, j = 0; j < array.Length; i++, j += 2)
+            {
+                if (j == array.Length - 1 && j % 2 == 0)
+                {
+                    outputArray[j] = inputArray[j / 2];
+                    break;
+                }
+
+                outputArray[j] = inputArray[i];
+                outputArray[j + 1] = inputArray[array.Length - (i + 1)];
+            }
+
+            return outputArray;
+        }
     }
 }
