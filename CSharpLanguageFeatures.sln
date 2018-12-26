@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Classes", "Classes\Classes.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Playground", "Playground\Playground.csproj", "{05F4B86A-DEA0-4EC1-A7E9-A1FD23185F87}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Indexers", "Indexers\Indexers.csproj", "{270CC4FD-8D38-45E8-91A3-D4A9DB254E6D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{05F4B86A-DEA0-4EC1-A7E9-A1FD23185F87}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{05F4B86A-DEA0-4EC1-A7E9-A1FD23185F87}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{05F4B86A-DEA0-4EC1-A7E9-A1FD23185F87}.Release|Any CPU.Build.0 = Release|Any CPU
+		{270CC4FD-8D38-45E8-91A3-D4A9DB254E6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{270CC4FD-8D38-45E8-91A3-D4A9DB254E6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{270CC4FD-8D38-45E8-91A3-D4A9DB254E6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{270CC4FD-8D38-45E8-91A3-D4A9DB254E6D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
